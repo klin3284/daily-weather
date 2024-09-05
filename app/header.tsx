@@ -1,9 +1,11 @@
-import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
-import { dark } from "@clerk/themes";
+import {
+  SignInButton, SignedIn, SignedOut, UserButton,
+} from '@clerk/nextjs';
+import { dark } from '@clerk/themes';
 
-const Header = () => (
+const header = () => (
   <header
-    style={{ display: "flex", justifyContent: "space-between", padding: 20 }}
+    style={{ display: 'flex', justifyContent: 'space-between', padding: 20 }}
   >
     <h1>My App</h1>
     <SignedOut>
@@ -20,4 +22,4 @@ const Header = () => (
   </header>
 );
 
-export default Header;
+export default header;

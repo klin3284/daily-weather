@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.4.1",
+    "@clerk/themes": "^2.1.27",
+    "axios": "^1.7.7",
     "next": "14.2.7",
     "react": "^18",
     "react-dom": "^18"
@@ -25,6 +27,7 @@
     "eslint": "^8.57.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.35.0",

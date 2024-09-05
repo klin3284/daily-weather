@@ -1,5 +1,3 @@
-const { format } = require("path");
-
 module.exports = {
   plugins: ["prettier", "import", "react"],
   root: true,
@@ -8,7 +6,6 @@ module.exports = {
     "airbnb-typescript",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
     "plugin:@next/next/recommended",
   ],
   parserOptions: {
@@ -18,8 +15,8 @@ module.exports = {
   },
   ignorePatterns: ["/*.*"],
   rules: {
-    "@next/next/no-img-element": "off",
-    "prettier/prettier": "error",
+    "@typescript-eslint/no-explicit-any": "warn",
+    quotes: ["error", "single"],
     "no-underscore-dangle": 0,
     "no-param-reassign": 0,
     "no-restricted-syntax": 0,
